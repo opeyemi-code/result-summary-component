@@ -14,7 +14,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshots/screenshot-desktop-view.png](screenshots/screenshot-desktop-view.png)
 
 ### Links
 
