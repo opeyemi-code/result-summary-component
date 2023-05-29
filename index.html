@@ -9,7 +9,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Result Summary Component</title>
+    <title>Frontend Mentor | Result Summary Component</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
@@ -21,37 +21,45 @@
     <div class="container">
       <header class="header">
         <h1 class="header__title">Your Result</h1>
-        <div>
-          <h2>76 <span>of 100</span></h2>
+        <div class="border--radius">
+          <h2 class="header__h2">76 <span class="small__text">of 100</span></h2>
         </div>
-        <h3>Great</h3>
-        <p>
-          you scored higher than 65% of the people who have taken these tests.
+        <h3 class="header__h3">Great</h3>
+        <p class="header__paragragph">
+          You scored higher than 65% of the people who have taken these tests.
         </p>
       </header>
       <main>
-        <h2>Summary</h2>
-        <ul>
-          <li>
+        <h2 class="main__heading">Summary</h2>
+        <ul class="main__unordered-list">
+          <li class="main__list-items">
             <img src="images/icon-reaction.svg" alt="reaction icon" />
             Reaction
-            <span>80/100</span>
+            <div class="rate"><span>80</span>/<span>100</span></div>
           </li>
-          <li>
+          <li class="main__list-items">
             <img src="images/icon-memory.svg" alt="memory icon" /> Memory
-            <span>92/100</span>
+            <div class="rate"><span>92</span>/<span>100</span></div>
           </li>
-          <li>
+          <li class="main__list-items">
             <img src="images/icon-verbal.svg" alt="verbal icon" /> Verbal
-            <span>61/100</span>
+            <div class="rate"><span>61</span>/<span>100</span></div>
           </li>
-          <li>
+          <li class="main__list-items">
             <img src="images/icon-visual.svg" alt="visual icon" /> Visual
-            <span>72/100</span>
+            <div class="rate"><span>72</span>/<span>100</span></div>
           </li>
         </ul>
-        <button type="submit">Continue</button>
+        <button class="btn" type="submit">Continue</button>
       </main>
     </div>
+    <footer class="attribution">
+      <p class="footer-note">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="github.com/Opeyemi-code">Opeyemi</a>.
+      </p>
+    </footer>
   </body>
 </html>
