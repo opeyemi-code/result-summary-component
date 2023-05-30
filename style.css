@@ -186,6 +186,7 @@ li .rate {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 25px 0 0 25px;
     box-shadow: -6px 6px 13px 11px rgba(235, 241, 255, 0.75);
   }
 
