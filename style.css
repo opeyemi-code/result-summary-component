@@ -182,7 +182,7 @@ li .rate {
   }
 
   .container {
-    width: 50%;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
